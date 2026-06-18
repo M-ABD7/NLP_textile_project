@@ -50,3 +50,17 @@ requirements.txt
      reasonable answer still comes back instead of nothing.
 7. **Output** — causes, recommended action, chemical category, and
    product are displayed.
+
+## Example run
+
+The user describes a problem in plain English. The system preprocesses
+the text, extracts the Fabric, Process, and Problem entities, and shows
+the detection method used so the reasoning is transparent.
+
+![Input and NLP extraction details](screenshots/01_input_extraction.png)
+
+Based on the extracted problem, the assistant returns ranked product
+recommendations, each with the problem addressed, the relevant
+fabric/process, root causes, and a recommended action.
+
+![Product recommendations output](screenshots/02_recommendations.png)
