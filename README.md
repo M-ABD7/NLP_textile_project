@@ -1,4 +1,4 @@
-# Textile Problem Diagnosis Assistant — Classical NLP Edition
+# Textile Problem Diagnosis Assistant (NLP PROJECT)
 
 A web assistant that takes a free-text description of a fabric
 processing problem and returns likely causes, a recommended action,
